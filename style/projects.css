@@ -93,3 +93,26 @@ time, mark, audio, video {
         background:white;
         color:#c483de;
       }
+      #project-body{
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+      }
+      .projects{
+        padding: 2em;
+      }
+      .project1{
+        width: 10%;
+        height: 10%;
+      }
+      .project1text{
+        text-decoration: none;
+        color: black;
+      }
+      #footer-box{
+        background:#cbc8cc;
+      }
+       #footer-text{
+        padding-left: 7em;
+        padding-top: 2em;
+      }
