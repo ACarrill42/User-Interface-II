@@ -107,5 +107,11 @@ time, mark, audio, video {
         margin: 1em;
       }
       #footer-box{
-          background:#cbc8cc;
+         display: flex;
+         flex-direction: column;
+         background:#cbc8cc;
+      }
+      #footer-text{
+        padding-left: 7em;
+        padding-top: 2em;
       }
