@@ -31,5 +31,66 @@ time, mark, audio, video {
       #header-box{
           display:flex;
           flex-direction: column;
-          border: 2px solid black;    
+          border: 2px solid black;   
+          padding: 1em;
+          background:#cbc8cc;
+      }
+      #header-about{
+          font-size: 3em;
+      }
+      .nav-bar{
+        display:flex;
+        flex-wrap: wrap;
+        padding: 1em;
+      }
+      nav{
+        display:flex;
+      }
+      #home{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #home:hover{
+        background:white;
+        color:#c483de;
+      }
+      #about{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #about:hover{
+        background:white;
+        color:#c483de;
+      }
+      #contact{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #contact:hover{
+        background:white;
+        color:#c483de;
+      }
+      #projects{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #projects:hover{
+        background:white;
+        color:#c483de;
       }
