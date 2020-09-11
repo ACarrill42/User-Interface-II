@@ -30,8 +30,7 @@ time, mark, audio, video {
       }
       #header-box{
           display:flex;
-          flex-direction: column;
-          border: 2px solid black;   
+          flex-direction: column;   
           padding: 1em;
           background:#cbc8cc;
       }
@@ -93,4 +92,12 @@ time, mark, audio, video {
       #projects:hover{
         background:white;
         color:#c483de;
+      }
+      #about-section{
+          display:flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+      }
+      #footer-box{
+          background:#cbc8cc;
       }
