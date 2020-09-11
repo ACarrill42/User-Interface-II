@@ -31,9 +31,5 @@ time, mark, audio, video {
       #header-box{
           display:flex;
           flex-direction: column;
-          border: 2px solid black;
-          
-      }
-      #about-top{
-          font-size: 5em
+          border: 2px solid black;    
       }
