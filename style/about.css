@@ -28,3 +28,12 @@ time, mark, audio, video {
       body{
         font-family:"Courier New", Courier, monospace;
       }
+      #header-box{
+          display:flex;
+          flex-direction: column;
+          border: 2px solid black;
+          
+      }
+      #about-top{
+          font-size: 5em
+      }
