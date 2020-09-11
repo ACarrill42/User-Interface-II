@@ -20,3 +20,183 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
     /*------------------------------------------------------------------------------*/
+
+    html{
+        box-sizing:border-box;
+      }
+      *,*:before,*:after{
+        box-sizing:inherit;
+      }
+      body{
+        font-family:"Courier New", Courier, monospace;
+      }
+      
+      #header-box{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        background:#cbc8cc;
+      }
+      #my-name{
+        font-size: 3em;
+      }
+      
+      #nav-bar{
+        display:flex;
+        flex-wrap: wrap;
+        padding: 1em;
+      }
+      nav{
+        display:flex;
+      }
+      #home{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #home:hover{
+        background:white;
+        color:#c483de;
+      }
+      #about{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #about:hover{
+        background:white;
+        color:#c483de;
+      }
+      #contact{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #contact:hover{
+        background:white;
+        color:#c483de;
+      }
+      #projects{
+        padding: 1em;
+        margin: 0 1em;
+        background-color: #c483de;
+        text-decoration: none;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #projects:hover{
+        background:white;
+        color:#c483de;
+      }
+      
+      #content-area{
+        display:flex;
+        flex-wrap: wrap;
+      }
+      #content-area2{
+        display:flex;
+        flex-wrap: wrap;
+      }
+      #project-images1{
+        display:flex;
+        margin: 2em;
+        width: 40em;
+        height: 40em;
+      }
+      #project-images2{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 11em 10em;
+        width: 40em;
+        height: 30em;
+      }
+      #project-images2 #name{
+        font-size: 4em;
+        text-align: center;
+      }
+      #project-images2 #project{
+        width: 20%;
+        padding: 1em;
+        margin-top: 6em;
+        margin-left: 15em;
+        background-color: #c483de;
+        text-decoration: none;
+        text-align:center;
+        color: white;
+        border-radius: 1.5em;
+      }
+      #project-images2 #project:hover{
+        background:white;
+        color:#c483de;
+        border: 1px solid grey;
+      }
+      #project-images2 #info{
+        margin: 4em 3em;
+        font-size: 1.5em;
+        text-align: left;
+      }
+      .project-images{
+        border: 2px black solid;
+        width: 25em;
+        height: 20em;
+        margin: 2em;
+        margin-bottom: 5em;
+      }
+      #content-area2 .project-images a{
+        text-decoration: none;
+        color: black;
+      }
+      
+      #content-area2 .project-images #UA{
+        width: 100%;
+        height: 100%;
+      }
+      #content-area2 .project-images #bakery{
+        width: 100%;
+        height: 100%;
+      }
+      #content-area2 .project-images #HTML-CSS{
+        width: 100%;
+        height: 100%;
+      }
+      #content-area2 .project-images #twa{
+        width: 100%;
+        height: 100%;
+      }
+      #content-area2 .project-images #PanAm{
+        width: 100%;
+        height: 100%;
+      }
+      #content-area2 .project-images #favcamp{
+        width: 100%;
+        height: 100%;
+      }
+      #content-area2 .project-images #garden{
+        width: 100%;
+        height: 100%;
+      }
+      #content-area2 .project-images #archery{
+        width: 100%;
+        height: 100%;
+      }
+      
+      #footer-box{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        background:#cbc8cc;
+        height: 10em;
+      }
