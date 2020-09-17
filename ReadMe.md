@@ -73,3 +73,22 @@ Follow these steps for completing your project.
 - [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Team Lead as a reviewer on the pull request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master
+
+## Objectives
+
+Differences in responsive layouts:
+1. Fixed Layout:
+
+Is a website format with non-flexible width parameters, uses a horizontal scroll bar, won't adjust to multiple screens, but it is the cheapest to design. Fixed hard units, ie pixels. Does not use Media Queries.
+
+2. Fluid Layout:
+
+Is a website layout that can expand and contract proportionally. It has no restraints for expanding and contracting, so it can possibly morph. It can be used on desktops, tablets, and phones. % based units of scale, designed to proportionally shrink. Does not use Media Queries.
+
+3. Adaptive Layout:
+
+Fast to design with elements from both Fixed and Fluid attributes. But the design is broken up between devices, meaning a different design for desktop, tablet, and phone. Does use Media Queries for formatting, and may use hard coded pixels for scale.
+
+4. Responsive Layout:
+
+Combines the attributes of the above three layouts, media queries are used to constrain responsive units. Can funtion beautifully on thousands of devices and screen sizes. Takes a lot more time and effort, but is the benchmark for web design.
