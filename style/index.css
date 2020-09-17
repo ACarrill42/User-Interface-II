@@ -204,12 +204,22 @@ time, mark, audio, video {
         body{
            display:flex;
            flex-direction: column;
-           width:80%;
+           width:100%;
+        }
+        #header-box{
+          display:flex;
+          flex-direction: column;
+          width:100%;
+        }
+        #content-area{
+          display:flex;
+          flex-direction: column;
+          width:100%;
         }
         #content-area2{
           display:flex;
           flex-direction: column;
-          width:80%;
+          width:100%;
         }
       }
       @media (max-width: 500px){
