@@ -200,33 +200,9 @@ time, mark, audio, video {
         background:#cbc8cc;
         height: 10em;
       }
-      @media (max-width: 800px){
+      @media screen and (max-width: 800px){
         body{
-          display:flex;
-          flex-direction: column;
-          width:100%;
-        }
-        #header-box{
-          display:flex;
-          flex-direction: column;
-          width:100%;
-        }
-        #content-area{
-          display:flex;
-          flex-direction: column;
-          width:100%;
-        }
-        #content-area2{
-          display:flex;
-          flex-direction: column;
-          width:100%;
-        }
 
-      }
-      @media (max-width: 500px){
-        body{
-          display:flex;
-          flex-direction: column;
           width:100%;
         }
         #header-box{
@@ -234,14 +210,30 @@ time, mark, audio, video {
           flex-direction: column;
           width:100%;
         }
+        nav a{
+          width:100%;
+        }
         #content-area{
           display:flex;
           flex-direction: column;
-          width:60%;
+          width:100%;
+        }
+        img{
+          display:flex;
+          width:100%;
+          height:100%;
+          padding-left: 4em;
+        }
+        #project-images2{
+          width:70%;
         }
         #content-area2{
           display:flex;
           flex-direction: column;
-          width:60%;
+          width:100%;
+        }
+        .project-images{
+          width: 50%;
+          height: 50%;
         }
       }
