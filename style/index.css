@@ -99,7 +99,6 @@ time, mark, audio, video {
       }
       
       #content-area{
-        border: 2px solid purple;
         display:flex;
         flex-wrap: nowrap;
       }
@@ -279,15 +278,13 @@ time, mark, audio, video {
         #header-box{
           display:flex;
           flex-direction: column;
-          width:100%;
-          border: 2px solid purple;
+          width:110%;
+          margin-left: 10%;
         }
         #nav-bar{
-          border: 2px solid red;
           width: 100%;
         }
         #nav-bar nav{
-          border: 2px solid black;
           width: 20%;
         }
        
