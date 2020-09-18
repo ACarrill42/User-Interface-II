@@ -147,44 +147,61 @@ time, mark, audio, video {
       .project-images{
         width: 44%;
       }
+      #content-area2 .project-images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 25%;
+      }
       #content-area2 .project-images a{
         text-decoration: none;
         color: black;
       }
       
       #content-area2 .project-images #UA{
-        width: 90%;
-        margin: 8%;
+        width: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #bakery{
-        width: 90%;
-        margin: 8%;
+        width: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #HTML-CSS{
-        width: 90%;
-        margin: 8%;
+        width: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #twa{
-        width: 90%;
-        margin: 8%;
+        width: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #PanAm{
-        width: 90%;
-        margin: 8%;
+        width: 100%;
+        height: 60%;
+        margin: 5%;
       }
       #content-area2 .project-images #favcamp{
-        width: 90%;
+        width: 100%;
         height: 50%;
-        margin: 8%;
+        margin: 5%;
       }
       #content-area2 .project-images #garden{
-        width: 90%;
-        margin: 8%;
+        width: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #archery{
-        width: 90%;
-        
-        margin: 8%;
+        width: 100%;
+        margin: 5%;
+      }
+      #content-area2 p{
+        width:35%;
+        display:flex;
+        justify-content: left;
+      }
+      #content-area2 a{
+        width:35%;
+        display:flex;
+        justify-content: left;
       }
       
       #footer-box{
@@ -193,13 +210,18 @@ time, mark, audio, video {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 1%;
+        padding: 5%;
         background:#cbc8cc;
-        height: 5%;
+      }
+      #footer-nav a{
+        padding: 10% 30%;
       }
       @media screen and (max-width: 800px){
         body{
-
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           width:100%;
         }
         #header-box{
@@ -217,8 +239,8 @@ time, mark, audio, video {
         }
         img{
           display:flex;
-          width:50%;
-          height: 50%;
+          width:100%;
+          height: 100%;
           padding-left: 1%;
         }
         #project-images2{
@@ -231,8 +253,7 @@ time, mark, audio, video {
         }
         .project-images{
           display: flex;
-          flex-wrap: wrap;
-          width: 25%;
+          width: 45%;
           padding: 2%;
         }
       }
