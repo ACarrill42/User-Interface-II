@@ -99,6 +99,7 @@ time, mark, audio, video {
       }
       
       #content-area{
+        border: 2px solid purple;
         display:flex;
         flex-wrap: nowrap;
       }
@@ -210,7 +211,7 @@ time, mark, audio, video {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 5%;
+        padding: 1;
         background:#cbc8cc;
       }
       #footer-nav #contact{
@@ -268,3 +269,64 @@ time, mark, audio, video {
           width: 100%;
         }
       }
+      @media screen and (max-width: 500px){
+        body{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        #header-box{
+          display:flex;
+          flex-direction: column;
+          width:100%;
+          border: 2px solid purple;
+        }
+        #nav-bar{
+          border: 2px solid red;
+          width: 100%;
+        }
+        #nav-bar nav{
+          border: 2px solid black;
+          width: 20%;
+        }
+       
+        #content-area{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width:100%;
+        }
+        #content-area #project{
+          font-size: .6rem;
+        }
+        #img{
+          width: 110%;
+        }
+        #project-images2{
+          display:flex;
+          justify-content: center;
+          width: 90%;
+        }
+        #content-area2{
+          display:flex;
+          justify-content: center;
+          width: 100%
+        }
+        .project-images{
+          display: flex;
+          width: 30%;
+          margin: 5%;
+          padding: 2%;
+        }
+        #footer-box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 120%;
+        }
+        #footer-box nav{
+          font-size: .75rem;
+        }
+      } 
