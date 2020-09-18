@@ -100,7 +100,7 @@ time, mark, audio, video {
       
       #content-area{
         display:flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
       }
       #content-area2{
         display:flex;
@@ -213,7 +213,7 @@ time, mark, audio, video {
         padding: 5%;
         background:#cbc8cc;
       }
-      #footer-nav a{
+      #footer-nav #contact{
         padding: 10% 30%;
       }
       @media screen and (max-width: 800px){
@@ -234,26 +234,37 @@ time, mark, audio, video {
         }
         #content-area{
           display:flex;
+          justify-content: center;
+          align-items: center;
           flex-direction: column;
           width:100%;
         }
-        img{
-          display:flex;
-          width:100%;
-          height: 100%;
-          padding-left: 1%;
+        #content-area #project{
+          font-size: .6rem;
+        }
+        #img{
+          width: 110%;
         }
         #project-images2{
           display:flex;
+          justify-content: center;
+          width: 90%;
         }
         #content-area2{
           display:flex;
-          flex-direction: column;
-          width:100%;
+          justify-content: center;
+          width: 100%
         }
         .project-images{
           display: flex;
-          width: 45%;
+          width: 30%;
+          margin: 5%;
           padding: 2%;
+        }
+        #footer-box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
         }
       }
