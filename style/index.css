@@ -34,7 +34,7 @@ time, mark, audio, video {
       #header-box{
         display: flex;
         flex-direction: column;
-        padding: 1em;
+        padding: 1%;
         background:#cbc8cc;
       }
       #my-name{
@@ -44,14 +44,14 @@ time, mark, audio, video {
       #nav-bar{
         display:flex;
         flex-wrap: wrap;
-        padding: 1em;
+        padding: 1%;
       }
       nav{
         display:flex;
       }
       #home{
-        padding: 1em;
-        margin: 0 1em;
+        padding: 7%;
+        margin: 0 20%;
         background-color: #c483de;
         text-decoration: none;
         color: white;
@@ -62,8 +62,8 @@ time, mark, audio, video {
         color:#c483de;
       }
       #about{
-        padding: 1em;
-        margin: 0 1em;
+        padding: 7%;
+        margin: 0 15%;
         background-color: #c483de;
         text-decoration: none;
         color: white;
@@ -74,8 +74,8 @@ time, mark, audio, video {
         color:#c483de;
       }
       #contact{
-        padding: 1em;
-        margin: 0 1em;
+        padding: 7%;
+        margin: 0 15%;
         background-color: #c483de;
         text-decoration: none;
         color: white;
@@ -86,8 +86,8 @@ time, mark, audio, video {
         color:#c483de;
       }
       #projects{
-        padding: 1em;
-        margin: 0 1em;
+        padding: 7%;
+        margin: 0 15%;
         background-color: #c483de;
         text-decoration: none;
         color: white;
@@ -100,7 +100,7 @@ time, mark, audio, video {
       
       #content-area{
         display:flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
       }
       #content-area2{
         display:flex;
@@ -108,17 +108,17 @@ time, mark, audio, video {
       }
       #project-images1{
         display:flex;
-        margin: 2em;
-        width: 40em;
-        height: 40em;
+        margin: 5%;
+        width: 40%;
+        height: 40%;
       }
       #project-images2{
         display:flex;
         justify-content: center;
         flex-direction: column;
-        margin: 11em 10em;
-        width: 40em;
-        height: 30em;
+        margin: 12% 5%;
+        width: 40%;
+        height: 30%;
       }
       #project-images2 #name{
         font-size: 4em;
@@ -126,9 +126,8 @@ time, mark, audio, video {
       }
       #project-images2 #project{
         width: 20%;
-        padding: 1em;
-        margin-top: 6em;
-        margin-left: 15em;
+        padding: 5% 3%;
+        margin: 2% 40%;
         background-color: #c483de;
         text-decoration: none;
         text-align:center;
@@ -141,16 +140,19 @@ time, mark, audio, video {
         border: 1px solid grey;
       }
       #project-images2 #info{
-        margin: 4em 3em;
+        margin: 4% 3%;
         font-size: 1.5em;
         text-align: left;
       }
       .project-images{
-        border: 2px black solid;
-        width: 25em;
-        height: 20em;
-        margin: 2em;
-        margin-bottom: 5em;
+        width: 44%;
+      }
+      #content-area2 .project-images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 25%;
       }
       #content-area2 .project-images a{
         text-decoration: none;
@@ -159,35 +161,47 @@ time, mark, audio, video {
       
       #content-area2 .project-images #UA{
         width: 100%;
-        height: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #bakery{
         width: 100%;
-        height: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #HTML-CSS{
         width: 100%;
-        height: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #twa{
         width: 100%;
-        height: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #PanAm{
         width: 100%;
-        height: 100%;
+        height: 60%;
+        margin: 5%;
       }
       #content-area2 .project-images #favcamp{
         width: 100%;
-        height: 100%;
+        height: 50%;
+        margin: 5%;
       }
       #content-area2 .project-images #garden{
         width: 100%;
-        height: 100%;
+        margin: 5%;
       }
       #content-area2 .project-images #archery{
         width: 100%;
-        height: 100%;
+        margin: 5%;
+      }
+      #content-area2 p{
+        width:35%;
+        display:flex;
+        justify-content: left;
+      }
+      #content-area2 a{
+        width:35%;
+        display:flex;
+        justify-content: left;
       }
       
       #footer-box{
@@ -196,7 +210,120 @@ time, mark, audio, video {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 1em;
+        padding: 1;
         background:#cbc8cc;
-        height: 10em;
       }
+      #footer-nav #contact{
+        padding: 10% 30%;
+      }
+      @media screen and (max-width: 800px){
+        body{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width:100%;
+        }
+        #header-box{
+          display:flex;
+          flex-direction: column;
+          width:100%;
+        }
+        nav a{
+          width:100%;
+        }
+        #content-area{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width:100%;
+        }
+        #content-area #project{
+          font-size: .6rem;
+        }
+        #img{
+          width: 110%;
+        }
+        #project-images2{
+          display:flex;
+          justify-content: center;
+          width: 90%;
+        }
+        #content-area2{
+          display:flex;
+          justify-content: center;
+          width: 100%
+        }
+        .project-images{
+          display: flex;
+          width: 30%;
+          margin: 5%;
+          padding: 2%;
+        }
+        #footer-box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 500px){
+        body{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        #header-box{
+          display:flex;
+          flex-direction: column;
+          width:110%;
+          margin-left: 10%;
+        }
+        #nav-bar{
+          width: 100%;
+        }
+        #nav-bar nav{
+          width: 20%;
+        }
+       
+        #content-area{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width:100%;
+        }
+        #content-area #project{
+          font-size: .6rem;
+        }
+        #img{
+          width: 110%;
+        }
+        #project-images2{
+          display:flex;
+          justify-content: center;
+          width: 90%;
+        }
+        #content-area2{
+          display:flex;
+          justify-content: center;
+          width: 100%
+        }
+        .project-images{
+          display: flex;
+          width: 30%;
+          margin: 5%;
+          padding: 2%;
+        }
+        #footer-box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 120%;
+        }
+        #footer-box nav{
+          font-size: .75rem;
+        }
+      } 
